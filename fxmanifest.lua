@@ -19,7 +19,11 @@ server_scripts {
 }
 
 dependencies {
-    'qb-core'
+    'qb-core',
+    'ox_lib',
+    'oxmysql',
+    'ox_inventory',
+    'ox_target',
 }
 
 ui_page 'html/ui.html'
